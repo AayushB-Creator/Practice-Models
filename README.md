@@ -1,3 +1,3 @@
-![Banner](https://drive.google.com/file/d/1UPok7UpzhYYkANaHKvLp6uHykM4lSd1h/view?usp=drive_link)
+![Banner](https://github.com/AayushB-Creator/Practice-Models/blob/main/github%20practice%20models.jpg)
 # Practice-Models
 The projects under this repository are made only for learning &amp; practice purpose.
