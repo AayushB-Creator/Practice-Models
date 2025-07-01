@@ -2,4 +2,4 @@
 # Practice-Models
 The projects under this repository are made only for learning &amp; practice purpose.
 
-> These are basic html and css only web dev projects. To understand and have experience on how a website's structure and basic design works using html and css only.
+> These web dev projects are made using only html and css. To understand and have experience on how a website's structure and basic design works using html and css only.
