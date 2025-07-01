@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+<!-- about us content -->
+<section class="about-us">
+    <div class="about-col">
+        <h1>We are the World's Largest University.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, voluptas reiciendis reprehenderit similique voluptates, sunt, cupiditate inventore ex assumenda nam aperiam expedita omnis magnam consequatur? Eius nobis optio ea quod!</p>
+        <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+        <img src="about.jpg">
+    </div>
+</section>
+    <!-- Footer -->
+     <hr>
+     <section class="footer">
+        <h4>Eduford Group</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. repudiandaeat fugiat ea dolorum vero provident<br>voluptate praesentium labore assumenda quae, nobis nisi dolores consectetur numquam voluptates Rerum</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made With &nbsp;<i class="fa-regular fa-heart"></i>&nbsp; by Aayush Bharti</p>
+     </section>
+
+<!-- js script for closing and opening! -->
+    <script>
+        var navLinks = document.getElementById("nav-links");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
